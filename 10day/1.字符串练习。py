@@ -1,0 +1,6 @@
+ter = input("请输入手机号：")
+if ter.startswith("1") and len(ter) == 11:
+	print("正确")
+else:
+	print("错误")
+	
